@@ -1,0 +1,994 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    position: relative;
+}
+
+#header .boxes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    position: absolute;
+
+}
+
+
+
+#header .boxes .box1 img {
+    height: 8rem;
+    width: 100%;
+    padding: 30px 10px;
+
+}
+
+
+#header .boxes .box2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#header .boxes .box2 ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 0 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    transition: 0, 5s;
+    font-size: 18px;
+
+
+}
+
+#header .boxes .box2 a:hover {
+    color: #fd4766;
+}
+
+#header .boxes .box3 i {
+    padding: 0 20px;
+    color: white;
+
+}
+
+
+#header .boxes .box3 a {
+    padding: 12px 20px;
+    display: inline-block;
+    margin: 20px 20px;
+    border: 2px solid;
+    height: 50px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border: 2px solid rgb(151, 147, 147);
+    transition: 0.4s;
+
+}
+
+#header .boxes .box3 a:hover {
+    background-color: #fd4766;
+
+}
+
+/******************************SECTION 1******************************/
+#place {
+    width: 100%;
+    /* height: 100vh; */
+  
+}
+
+#place .content {
+
+    background: linear-gradient(rgb(21, 21, 21), rgba(5, 5, 5, 0.8)), url(http://rainbowit.net/themes/imroz/wp-content/uploads/2021/05/bg-image-1-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#place .content .red {
+    width: 50%;
+    padding: 0 30px;
+    margin: 40px auto;
+}
+
+#place .content .red h1 {
+    font-size: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(120deg, #1C99FE 20.69%, #7644FF 35.19%, #FD4766 55.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 10rem;
+    text-align: center;
+
+}
+
+#place .content .blue {
+    width: 100%;
+    margin: auto;
+    display: flex;
+
+    height: 60vh;
+
+}
+
+#place .content .blue .one {
+    width: 20%;
+    margin: auto;
+    height: 50vh;
+
+}
+
+#place .content .blue .one h3 {
+    color: white;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 15px;
+}
+
+#place .content .blue .one p {
+    color: rgb(125, 120, 120);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    font-weight: 700;
+}
+
+#place .content .blue .one svg {
+    color: #f30d33;
+    margin: auto;
+    display: block;
+
+}
+
+/***************************section2***************************/
+
+#about {
+    /* height: 100vh; */
+    width: 100%;
+    position: relative;
+}
+
+#about .boxes {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+
+}
+
+#about .boxes .photo {
+    width: 40%;
+    margin-top: 60px;
+
+}
+
+#about .boxes .photo img {
+    width: 100%;
+}
+
+#about .boxes .gold {
+    width: 50%;
+    margin:0 50px;
+}
+
+#about .gold h2 {
+    font-size: 50px;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#about .gold p {
+   
+    font-size: 20px;
+    color: rgb(93, 88, 88);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: 20px;
+} 
+#about.boxes .gold h5 {
+    font-size: 20px;
+    line-height: 10px;
+   }
+
+#about .boxes .gold i {
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: #FD4766;
+    width: 14%;
+    height: 68px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 95px;
+}
+
+
+
+/*********************section 3***********************/
+#service {
+    background-color:  rgb(237, 236, 236);
+    height: 50vh;
+    width: 100%;
+}
+
+#service .block {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 auto;
+}
+
+#service .block .lock {
+
+    margin: 40px 0 auto;
+    text-align: center;
+    width: 50%;
+    padding-top: 100px;
+
+}
+
+#service .block .lock h3 {
+
+    background: -webkit-linear-gradient(120deg, #118df3 45.69%, #663bdb 48.19%, #FD4766 57.79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+#service .block .lock h1 {
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+#service .block .lock p {
+    color: rgb(112, 105, 105);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#stop {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(237, 236, 236);
+}
+
+#stop .down {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#stop .down .up {
+
+    width: 28%;
+    padding: 90px 10px;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: white;
+    transition: 0.5s ease;
+
+}
+
+#stop .down .up:hover {
+    transform: scale(1);
+    box-shadow: 0 0 20px 0 grey;
+}
+
+#stop .down .up svg {
+    color: #f30d33;
+    padding-top: 2px;
+    font-size: 10px;
+}
+
+#stop .down .up h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#stop .down .up p {
+    color: rgb(133, 128, 128);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+/*********************section 4************************/
+#start {
+    height: 45vh;
+    width: 100%;
+}
+
+#start .finish {
+    margin: 30px 0 auto;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#start .finish .abd h3 {
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background: -webkit-linear-gradient(120deg, #118df3 45.69%, #663bdb 49.19%, #FD4766 40.79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#start .finish .abd h1 {
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#start .finish .abd p {
+    color: rgb(143, 136, 136);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/*****************************************************/
+#weather {
+    height: 80vh;
+    width: 100%;
+}
+
+#weather .cold {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 90px auto;
+
+
+}
+#weather .cold .hot1 .overlie{
+position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+background: linear-gradient( to top,  red,rgba(255, 0, 0, 0));
+opacity: 0;
+transition: 1s ease;
+}
+#weather .cold .hot1:hover .overlie{
+    opacity: 1;
+}
+#weather .cold .hot2 .overlie{
+    position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    background: linear-gradient( to top,  red,rgba(255, 0, 0, 0));
+    opacity: 0;
+    transition: 1s ease;
+    }
+    #weather .cold .hot2:hover .overlie{
+        opacity: 1;
+    }
+    #weather .cold .hot3 .overlie{
+        position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        background: linear-gradient( to top,  red,rgba(255, 0, 0, 0));
+        opacity: 0;
+        transition: 1s ease;
+        }
+        #weather .cold .hot3:hover .overlie{
+            opacity: 1;
+        }
+        
+    
+
+#weather .cold .hot1 {
+   overflow: hidden;
+   margin: 25px 15px;
+    width: 30%;
+
+    background-repeat: no-repeat;
+    position: relative;
+    transition: 0.9s ease;
+
+}
+
+#weather .cold .hot1 img{
+    width: 100%;
+   height: 100%;
+    transition: 0.9s ease;
+   
+}
+
+#weather .cold .hot1:hover {
+    transform: scale(1.09);
+
+}
+
+#weather .cold .hot1 img:hover{
+    transform: scale(1.09);
+}
+
+#weather .cold .hot1 .bdo1 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    z-index: 5;
+
+}
+
+#weather .cold .hot1 .bdo1 p {
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+#weather .cold .hot1 .bdo1 h4 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#weather .cold .hot1 .bdo1 a {
+    text-decoration: none;
+    border: 2px solid rgb(146, 142, 142);
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+
+}
+
+#weather .cold .hot2 {
+    overflow: hidden;
+    width: 30%;
+   margin: 25px 15px;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: 1s ease;
+}
+#weather .cold .hot2 img{
+    width: 100%;
+    transition: 1s ease;
+    height: 100%;
+}
+
+#weather .cold .hot2:hover {
+
+    transform: scale(1.09);
+}
+#weather .cold .hot2 img:hover{
+    transform: scale(1.09);
+}
+
+#weather .cold .hot2 .bdo2 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    z-index: 5;
+}
+
+#weather .cold .hot2 .bdo2 p {
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+#weather .cold .hot2 .bdo2 h4 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#weather .cold .hot2 .bdo2 a {
+    text-decoration: none;
+    border: 2px solid rgb(150, 147, 147);
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+}
+
+#weather .cold .hot3 {
+    overflow: hidden;
+    margin: 25px 15px;
+    width: 30%;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: 1s ease;
+}
+#weather .cold .hot3 img{
+    width: 100%;
+    transition: 1s ease;
+    height: 100%;
+}
+#weather .cold .hot3 img:hover{
+    transform: scale(1.09);
+}
+
+#weather .cold .hot3:hover {
+    transform: scale(1.09);
+}
+
+#weather .cold .hot3 .bdo3 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    z-index: 5;
+}
+
+#weather .cold .hot3 .bdo3 p {
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#weather .cold .hot3 .bdo3 h4 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#weather .cold .hot3 .bdo3 a {
+    text-decoration: none;
+    border: 2px solid rgb(149, 147, 147);
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+}
+
+/****************************SECTION 5**********************************/
+#company {
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(245, 245, 245);
+}
+
+#company .work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#company .work .position h3 {
+    background: -webkit-linear-gradient(120deg, #118df3 29.69%, #663bdb 30.19%, #FD4766 80.79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+
+#company .work .position h1 {
+    font-size: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#company .work .position p {
+    color: rgb(109, 108, 108);
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+/* ******************************************************** */
+#nside {
+    width: 100%;
+    height: 100vh;
+
+}
+
+#inside .custom {
+
+
+    background-color: rgb(246, 246, 246);
+
+}
+
+#inside .custom .level {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8rem 0;
+
+}
+
+#inside .custom .level .grow {
+
+    padding: 70px 60px;
+    background-color: white;
+    text-align: center;
+
+
+}
+
+#inside .custom .level .grow svg {
+    color: #f30d33;
+
+
+}
+
+#inside .custom .level .grow h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+#inside .custom .level .grow p {
+    color: rgb(113, 112, 112);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+/****************************section 6**********************************/
+#public {
+    width: 100%;
+    height: 100vh;
+}
+
+#public .life {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 30px 0 auto;
+
+
+}
+
+#public .life .personal {
+    margin: 20px 15px auto;
+    width: 50%;
+}
+
+#public .life .personal h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 37px;
+    padding: 30px 20px;
+
+}
+
+#public .life .personal h6 span {
+    color: #f30d33;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#public .life .personal h6 {
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+#public .life .person {
+    margin-top: 20px;
+    height: 100vh;
+    width: 40%;
+}
+
+#public .life .person ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#public .life .person ul li a {
+    display: inline-block;
+    padding: 15px 15px;
+
+}
+
+#public .life .person ul li a img {
+    border-radius: 20px;
+    opacity: 0.4;
+}
+/*****************************section7******************************/
+#media{
+    padding: 8rem 0;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+
+}
+#media .news{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+   
+    
+   
+}
+#media .news .show{
+    margin: 10px 0 auto;
+    line-height: 40px;
+    text-align: center;
+}
+#media .news .show h3{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: -webkit-linear-gradient(120deg, #118df3 29.69%, #663bdb 30.19%, #FD4766 80.79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#media .news .show h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+#media .news .show p{
+    color:rgb(114, 111, 111);
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#media .news .magazine{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+      
+}
+#media .news .magazine .toy1{
+    overflow: hidden;
+    width: 30%;
+    margin:25px 15px auto;
+    position: relative;
+    transition: 1s ease;
+}
+#media .news .magazine .toy1:hover{
+    transform: scale(1.09);
+}
+#media .news .magazine .toy1 img{
+    width: 100%;
+    height: 100%;
+    transition: 1s ease;
+}
+#media .news .magazine .toy1 img:hover{
+    transform: scale(1.09);
+}
+#media .news .magazine .toy2{
+    overflow: hidden;
+    width: 30%;
+    margin: 25px 15px auto;
+    position: relative;
+    transition: 1s ease;
+}
+#media .news .magazine .toy2:hover{
+    transform: scale(1.09);
+}
+#media .news .magazine .toy2 img{
+    width: 100%;
+    height: 100%;
+    transition: 1s ease;
+}
+#media .news .magazine .toy2 img:hover{
+    transform: scale(1.09);
+}
+#media .news .magazine .toy3{
+    overflow: hidden;
+    width: 30%;
+    margin:25px 15px auto;
+    position: relative;
+    transition: 1s ease;
+    
+}
+#media .news .magazine .toy3:hover{
+    transform: scale(1.09);
+}
+#media .news .magazine .toy3 img{
+    width: 100%;
+    height: 100%;
+    transition: 1s ease;
+}
+#media .news .magazine .toy3 img:hover{
+    transform: scale(1.09);
+}
+/******************************************/
+#media .news .magazine .toy1 .blank1{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    transform: translateY(50px);
+    transition: 1s ease;
+    width: 80%;
+    height: 90%;
+    overflow: hidden;
+    z-index: 5;
+
+}
+#media .news .magazine .toy1:hover .blank1{
+    transform: translateY(0px);
+
+}
+#media .news .magazine .toy1 .blank1 h3{
+    color: rgb(136, 130, 130);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+#media .news .magazine .toy1 .blank1 h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+#media .news .magazine .toy1 .blank1 a{
+   
+    text-decoration: none;
+    border: 2px solid rgb(184, 182, 182);
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+}#media .news .magazine .toy2 .blank2{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    z-index: 5;
+    transform: translateY(50px);
+    transition: 1s ease;
+    overflow: hidden;
+
+}
+#media .news .magazine .toy2:hover .blank2{
+    transform: translateY(0px);
+}
+
+#media .news .magazine .toy2 .blank2 h3{
+    color: rgb(136, 130, 130);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+#media .news .magazine .toy2 .blank2 h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+#media .news .magazine .toy2 .blank2 a{
+   
+    text-decoration: none;
+    border: 2px solid rgb(149, 147, 147);
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+}
+#media .news .magazine .toy3 .blank3{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    transform: translateY(55px);
+    z-index: 5;
+    transform: translateY(55px);
+   transition: 1s ease;
+   overflow: hidden;
+
+}
+#media .news .magazine .toy3:hover .blank3{
+    transform: translateY(0px);
+}
+
+#media .news .magazine .toy3 .blank3 h3{
+    color: rgb(136, 130, 130);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+#media .news .magazine .toy3 .blank3 h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+#media .news .magazine .toy3 .blank3 a{
+   
+    text-decoration: none;
+    border: 2px solid rgb(149, 147, 147);
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+}
+/****************************************/
+#media .news .toy1 .overlie{
+    position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    background: linear-gradient( to top,  rgb(252, 5, 108),rgba(255, 0, 0, 0));
+    opacity: 0;
+    transition: 1s ease;
+    
+    }
+
+    #media .news .toy1:hover .overlie{
+        opacity: 1;
+    }
+  #media .news .toy2 .overlie{
+        position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        background: linear-gradient( to top,  rgb(252, 5, 108),rgba(255, 0, 0, 0));
+        opacity: 0;
+        transition: 1s ease;
+        }
+        #media .news .toy2:hover .overlie{
+            opacity: 1;
+        }
+        #media .news .toy3 .overlie{
+            position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+            background: linear-gradient( to top,  rgb(252, 5, 108),rgba(255, 0, 0, 0));
+            opacity: 0;
+            transition: 1s ease;
+            }
+            #media .news .toy3:hover .overlie{
+                opacity: 1;
+            }
+            /************************************/
+            
